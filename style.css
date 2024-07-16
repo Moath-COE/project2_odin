@@ -146,5 +146,27 @@ blockquote footer {
 }
 
 /* Cta section */
+.cta {
+  background-color: var(--light);
+  color: var(--light);
+  padding: 96px 0px;
+}
+
+.cta-card {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 84px;
+  border-radius: 8px;
+}
+
+.cta-btn {
+  border: 2px solid var(--light);
+}
+
+.cta-text p {
+  color: var(--gray);
+}
 
 /* footer */
