@@ -126,6 +126,24 @@ button {
 }
 
 /* Quote section */
+.quote {
+  background-color: var(--gray);
+  text-align: center;
+  padding: 128px 0px;
+}
+
+blockquote p {
+  font-size: 36px;
+  color: var(--dark);
+  font-weight: 300;
+}
+
+blockquote footer {
+  font-size: 36px;
+  color: var(--dark);
+  font-weight: 600;
+  text-align: end;
+}
 
 /* Cta section */
 
