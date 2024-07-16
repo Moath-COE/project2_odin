@@ -76,8 +76,9 @@ ul li a,
 
 .img {
   text-align: center;
-  background-color: var(--gray);
-  height: 100%;
+  background-color: #e5e7eb5e;
+  flex: 1;
+  align-content: center;
 }
 
 button {
@@ -129,17 +130,21 @@ button {
 .quote {
   background-color: var(--gray);
   text-align: center;
-  padding: 128px 0px;
+  padding: 96px 0px;
 }
 
 blockquote p {
-  font-size: 36px;
+  font-size: 24px;
   color: var(--dark);
-  font-weight: 300;
+  font-weight: 400;
+  width: 760px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  text-align: justify;
 }
 
 blockquote footer {
-  font-size: 36px;
+  font-size: 24px;
   color: var(--dark);
   font-weight: 600;
   text-align: end;
@@ -170,3 +175,13 @@ blockquote footer {
 }
 
 /* footer */
+.footer {
+  background-color: var(--dark);
+  text-align: center;
+  color: var(--light);
+  padding: 32px 0;
+}
+
+.footer a {
+  color: var(--blue);
+}
